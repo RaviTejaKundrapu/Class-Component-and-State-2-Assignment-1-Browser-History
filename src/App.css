@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.appContainer {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.HistoryLogoSearchInputContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3367d6;
+  height: 70px;
+  border-radius: 2px;
+  padding: 6px;
+}
+.historyTextImage {
+  height: 26px;
+  width: 100px;
+  margin-right: 2px;
+}
+.searchLogoAndInput {
+  border: 1px solid #c4cbd9;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+.searchLogo {
+  height: 30px;
+  width: 30px;
+}
+.searchBox {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  height: 22px;
+  font-family: 'Roboto';
+  color: #ececec;
+  font-weight: 600;
+  font-size: 14px;
+}
+.searchListContainer {
+  list-style-type: none;
+  width: 95%;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  align-self: center;
+}
+.noHistoryMessage {
+  color: blue;
+  font-size: 29px;
+  font-weight: 800;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

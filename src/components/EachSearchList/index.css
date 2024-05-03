@@ -1,0 +1,97 @@
+.eachSearch {
+  width: 98%;
+  border: 1px solid transparent;
+  border-radius: 1px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+  padding: 1px;
+  margin: 4px;
+}
+
+.time {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 900;
+  color: #64748b;
+  margin: 8px;
+}
+.logoAndTitleUrlContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  height: 33px;
+  width: 33px;
+  margin: 6px;
+}
+.titleAndUrl {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.title {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 900;
+  color: #475569;
+}
+.url {
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 500;
+  color: #475569;
+}
+.deleteButton {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+.deleteImg {
+  height: 23px;
+  width: 23px;
+}
+
+@media all and (min-width: 768px) {
+  .eachSearch {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .time {
+    font-size: 16px;
+  }
+  .logoAndTitleUrlContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    height: 33px;
+    width: 33px;
+    margin: 6px;
+  }
+  .titleAndUrl {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .title {
+    font-size: 20px;
+    margin-right: 9px;
+  }
+  .url {
+    font-size: 13px;
+  }
+
+  .deleteImg {
+    height: 25px;
+    width: 25px;
+  }
+}
